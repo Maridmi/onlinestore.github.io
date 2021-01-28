@@ -206,7 +206,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 5px 0;
     width: 100%;
 }
 
@@ -216,6 +215,7 @@
     display: block;
     user-select: none;
     width: 100%;
+    padding: 5px 0 5px 10px;
 }
 
 .drop__check:hover label{
@@ -225,7 +225,6 @@
 .drop__check input[type=checkbox] {
     line-height: 17px;
     border: 1px solid #EBEBEB;
-    margin-right: 10px;
     border-radius: 0;
 }
 

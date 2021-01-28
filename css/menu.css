@@ -22,6 +22,7 @@
 
 .main__menu__content a {
     text-decoration: none;
+    width: 100%;
 }
 
 .main__menu__content h2 {
@@ -41,7 +42,8 @@
 }
 
 .main__menu__content p {
-    margin: 0 0 10px 55px;
+    margin: 0 0 10px 0;
+    padding-left: 55px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
