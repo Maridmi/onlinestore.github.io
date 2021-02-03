@@ -40,6 +40,11 @@ $primary-width: 1140px;
         text-decoration: none;
         margin: 0 5px;
     }
+
+    a:hover {
+        color: #EF5B70;
+        transition: .5s;
+    }
     
     p {
         text-decoration: none;
@@ -47,6 +52,7 @@ $primary-width: 1140px;
         font-size: 14px;
         line-height: 17px;
         color: #636363;
+        user-select: none;
     }
 }
 

@@ -64,12 +64,22 @@
   margin: 0 5px;
 }
 
+.title__content__menu a:hover {
+  color: #EF5B70;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
 .title__content__menu p {
   text-decoration: none;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #636363;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .items {
