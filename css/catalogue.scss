@@ -585,7 +585,12 @@ $primary-width: 1140px;
     justify-content: space-between;
 }
 
-.cart__item {
+.cart__item__page {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
     height: 305px;
     text-align: left;
