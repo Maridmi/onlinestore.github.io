@@ -843,3 +843,187 @@ $primary-width: 1140px;
         user-select: none;
     }
 }
+
+/* --------------------------------------- registration --------------------------------------------------------- */
+
+.reg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 64px 0 96px 0;
+}
+
+.reg__content {
+    width: $primary-width;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reg__inputs {
+    h3 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
+    input[type=radio] {
+        width: 17px;
+        margin: 0;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+        margin-bottom: 40px;
+        width: 360px;
+    }
+}
+
+.rad {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.rad__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+
+    label {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        padding-left: 10px;
+        color: #000000;
+    }
+}
+
+.reg__button {
+    width: 165px;
+    height: 50px;
+    border: 1px solid #F16D7F;
+    background-color: #F16D7F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    h3 {
+        margin-right: 20px;
+    }
+
+    &:hover {
+        background-color: inherit;
+        border: 1px solid #F16D7F;
+        transition: .5s;
+    }
+
+    &:hover h3 {
+        color: #F16D7F;
+        transition: .5s;
+    }
+
+    path {
+        fill: white;
+    }
+
+    &:hover path {
+        fill: #F16D7F;
+        transition: .5s;
+    }
+}
+
+.reg__inputs > input[type="name"]:focus {
+    outline: 0;
+}
+
+.reg__inputs > input[type="name"]:valid {
+    background-color:rgba(59, 218, 94, 0.13);
+}
+
+.reg__inputs > input[type="name"]:invalid:not(:placeholder-shown) {
+    background: rgba(202, 25, 54, 0.226);
+}
+
+.reg__inputs > input[type="email"]:focus {
+    outline: 0;
+}
+
+.reg__inputs > input[type="email"]:valid {
+    background-color:rgba(59, 218, 94, 0.13);
+}
+
+.reg__inputs > input[type="email"]:invalid:not(:placeholder-shown) {
+    background: rgba(202, 25, 54, 0.226);
+}
+
+.reg__inputs > input[type="password"]:focus {
+    outline: 0;
+}
+
+.reg__inputs > input[type="password"]:valid {
+    background-color:rgba(59, 218, 94, 0.13);
+}
+
+.reg__inputs > input[type="password"]:invalid:not(:placeholder-shown) {
+    background: rgba(202, 25, 54, 0.226);
+}
+
+.list {
+    width: 55%;
+
+    h1 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    li {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000;
+        padding-left: 20px;
+        list-style-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/Vector.png?alt=media&token=96e75dc7-aaa4-41d6-97bb-fc289e3ec1f6");
+    }
+}
+
+.img_anim {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.img_anim:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.logo_anim {
+    transition: all 2s;
+}
+
+.logo_anim:hover {
+    transform: rotate(360deg);
+}
