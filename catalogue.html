@@ -14,19 +14,19 @@
 </head>
 
 <body>
-    <div class="header">
-      <div class="header__content">
-        <div class="header__content__left">
-            <a href="index.html"><img src="img/logo.png" style="width: 44px;"></a>
-            <a href="#"><img src="img/src.png" style="width: 26px;"></a>
-        </div>
-        <div class="header__content__right">
-            <img src="img/menu.png" style="width: 32px; cursor: pointer" onclick="openNav()">
-            <a href="registration.html"><img src="img/reg.png" style="width: 29px;"></a>
-            <a href="cart.html"><img src="img/cart.png" style="width: 32px;"></a>
-        </div>
+  <div class="header">
+    <div class="header__content">
+      <div class="header__content__left">
+          <a href="index.html"><img src="img/logo.png" style="width: 44px;"></a>
+          <a href="#"><img src="img/src.png" style="width: 26px;"></a>
+      </div>
+      <div class="header__content__right">
+          <img src="img/menu.png" onclick="openNav()" style="width: 32px; cursor: pointer;">
+          <a href="404.html"><img src="img/reg.png" style="width: 29px;"></a>
+          <a href="cart.html"><img src="img/cart.png" style="width: 32px;"></a>
       </div>
     </div>
+  </div>
 
     <div class="back" id="mainNav">
       <div class="back__menu" onclick="closeNav()"></div>
@@ -35,23 +35,23 @@
         <div class="main__menu__content">
           <h2>MENU</h2>
           <a href="catalogue.html"><h3>MAN</h3></a>
-          <a href="404.html"><p>Accessories</p></a>
-          <a href="404.html"><p>Bags</p></a>
-          <a href="404.html"><p>Denim</p></a>
-          <a href="404.html"><p>T-Shirts</p></a>
-          <a href="404.html"><h3>WOMAN</h3></a>
-          <a href="404.html"><p>Accessories</p></a>
-          <a href="404.html"><p>Jackets & Coats</p></a>
-          <a href="404.html"><p>Polos</p></a>
-          <a href="404.html"><p>T-Shirts</p></a>
-          <a href="404.html"><p>Shirts</p></a>
-          <a href="404.html"><h3>KIDS</h3></a>
-          <a href="404.html"><p>Accessories</p></a>
-          <a href="404.html"><p>Jackets & Coats</p></a>
-          <a href="404.html"><p>Polos</p></a>
-          <a href="404.html"><p>T-Shirts</p></a>
-          <a href="404.html"><p>Shirts</p></a>
-          <a href="404.html"><p>Bags</p></a>
+          <a href="catalogue.html"><p>Accessories</p></a>
+          <a href="catalogue.html"><p>Bags</p></a>
+          <a href="catalogue.html"><p>Denim</p></a>
+          <a href="catalogue.html"><p>T-Shirts</p></a>
+          <a href="catalogue.html"><h3>WOMAN</h3></a>
+          <a href="catalogue.html"><p>Accessories</p></a>
+          <a href="catalogue.html"><p>Jackets & Coats</p></a>
+          <a href="catalogue.html"><p>Polos</p></a>
+          <a href="catalogue.html"><p>T-Shirts</p></a>
+          <a href="catalogue.html"><p>Shirts</p></a>
+          <a href="catalogue.html"><h3>KIDS</h3></a>
+          <a href="catalogue.html"><p>Accessories</p></a>
+          <a href="catalogue.html"><p>Jackets & Coats</p></a>
+          <a href="catalogue.html"><p>Polos</p></a>
+          <a href="catalogue.html"><p>T-Shirts</p></a>
+          <a href="catalogue.html"><p>Shirts</p></a>
+          <a href="catalogue.html"><p>Bags</p></a>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@
       <div class="title__content">
         <h1>NEW ARRIVALS</h1>
         <div class="title__content__menu">
-          <a href="/">HOME</a><p>/</p><a href="">MEN</a><p>/</p><a href="#" style="color: #F16D7F">NEW ARRIVALS</a> 
+          <a href="index.html">HOME</a><p>/</p><a href="catalogue.html">MEN</a><p>/</p><a href="#" style="color: #F16D7F">NEW ARRIVALS</a> 
         </div>
       </div>
     </div>
@@ -468,7 +468,7 @@
         <h3>SUBSCRIBE</h3>
         <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
         <div class="search">
-          <input required type="email" id="email" name="email" pattern="*.@*.*" placeholder="Enter Your Email">
+          <input required type="email" id="email" name="email" pattern="\S+@[a-z]+.[a-z]+" placeholder="Enter Your Email">
           <div class="search__button">
             <a href="#" >Subscribe</a>
           </div>
