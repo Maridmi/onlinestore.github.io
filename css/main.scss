@@ -19,7 +19,9 @@ img {
 }
 
 @media screen and (min-width: 1025px) {
-    $primary-width: 1140px;
+    .pc__none {
+        display: none;
+    }
 
     .main {
         width: 100%;
@@ -513,7 +515,11 @@ img {
 
 /* ============================================================================================================= */
 
-@media screen and (min-width: 420px) and (max-width: 1025px) {
+@media screen and (min-width: 420px) and (max-width: 1025px) {    
+    .pc__none {
+        display: none;
+    }
+
     .main {
         width: 100%;
         height: 367px;
@@ -768,6 +774,10 @@ img {
         background-color: #F16D7F;
         color: white;
         transition: .7s;
+    }
+
+    #mob__none {
+        display: none;
     }
 
     .actions {
@@ -1265,6 +1275,10 @@ img {
         background-color: #F16D7F;
         color: white;
         transition: .7s;
+    }
+
+    #mob__none {
+        display: none;
     }
 
     .actions {
